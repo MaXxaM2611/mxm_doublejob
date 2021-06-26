@@ -12,7 +12,7 @@ end)
 
 --[[
 
-    local getJob = exports["mxm_dublejob"]:getJob(src)
+    local getJob = exports["mxm_dublejob"]:getJob()
 
         getJob.name =           "job name"              type = string
         getJob.label =          "job Label"             type = string
