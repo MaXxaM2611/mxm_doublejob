@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD COLUMN `job_2` VARCHAR(255)  DEFAULT '{"grade":0,"name":"disoccupato"}' COLLATE 'utf8mb4_bin';
