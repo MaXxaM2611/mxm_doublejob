@@ -27,6 +27,11 @@ exports('getJob',function()
     return PlayerJob_2
 end)
 
+TriggerEvent('chat:addSuggestion', '/setjob_2', 'help text', {
+    { name="[id]", help="server id" },
+    { name="[Jobname]", help="Job Name" },
+    { name="[jobgrade]", help="Job Grade" }
+})
 
 
 --[[  --Example Usage
